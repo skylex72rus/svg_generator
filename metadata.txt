@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Svg Image Generator
+qgisMinimumVersion=2.14
+description=create svg images from vector layer
+version=0.1
+author=Alex Russkikh. 
+email=skylex72rus@gmail.com
+
+about=Plugin for genrating svg graph image from value in specifying columns. Use matplotlib for svg generating.
+
+tracker=https://github.com/skylex72rus/svg_generator.git
+repository=https://github.com/skylex72rus/svg_generator.git
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=attribute table, vector
+
+homepage=https://github.com/skylex72rus/svg_generator.git
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
